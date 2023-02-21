@@ -25,7 +25,7 @@ class DefaultWeb {
         // Respond
         this.tts_action.sendGoal({
             rawtext: {
-                text: "<mark name='doTrick trickName=arm_bump_front'/> You can control the green cursor by hovering your hand approximately 20 centimeters over the ultrasonic feedback device. Select a category by holding the cursor over a category for one second. The aim is to select the category from the top row that corresponds to the image at the bottom of the screen. <mark name='doTrick trickName=alive_1'/> If you get it wrong, you can try again until you categorise it correctly. The goal is to complete the task both quickly and accurately.", 
+                text: "<mark name='doTrick trickName=arm_bump_front'/> You can control the green cursor by hovering your hand approximately 20 centimeters over the ultrasonic feedback device. The aim is to select the category from the top row that corresponds to the image at the bottom of the screen. <mark name='doTrick trickName=alive_1'/> Select a category by holding the cursor over a category for one second. If you get it wrong, you can try again. The goal is to complete the task both quickly and accurately.", 
                 lang_id: "en_GB"
             }
         }, (response) => {

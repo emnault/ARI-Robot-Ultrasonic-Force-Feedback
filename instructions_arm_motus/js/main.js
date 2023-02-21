@@ -25,7 +25,7 @@ class DefaultWeb {
         // Respond
         this.tts_action.sendGoal({
             rawtext: {
-                text: "<mark name='doTrick trickName=arm_bump_front'/> To do this activity, hold onto the joystick and rest your forearm in the support. <mark name='doTrick trickName=alive_2'/>The cursor is controlled by moving the joystick. The aim is to select the item that <mark name='doTrick trickName=alive_3'/>answers the prompt at the top of the screen. Select your answer by holding the cursor over an item for one second. <mark name='doTrick trickName=alive_1'/> The goal is to complete the task both quickly and accurately.", 
+                text: "<mark name='doTrick trickName=arm_bump_front'/> To do this activity, hold onto the joystick and rest your forearm in the support. <mark name='doTrick trickName=alive_2'/>The cursor is controlled by moving the joystick. The aim is to select the item that <mark name='doTrick trickName=alive_3'/>answers the prompt at the top of the screen. Select your answer by holding the cursor over an item for one second. <mark name='doTrick trickName=alive_1'/> If you get it wrong, you can try again. The goal is to complete the task both quickly and accurately.", 
                 lang_id: "en_GB"
             }
         }, (response) => {
@@ -46,7 +46,7 @@ $(document).ready(function() {
     default_web.firstFrase();
 
     var video = document.getElementById('video');
-    video.setAttribute('src', 'Intro_Haptic.mp4'); 
+    video.setAttribute('src', 'ArmMotus Instructions_No Audio'); 
     video.play();
 
   //   $("#back").on("touchend", function(){
